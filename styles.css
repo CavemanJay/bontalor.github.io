@@ -7,11 +7,20 @@
     font-display: swap;
 }
 
+html {
+    background-color: black;
+    font-family: 'ChronoType';
+    font-weight: 600;
+    color: #dfdfdf;
+    min-height: 100vh;
+}
+
 body {
-  font-family: 'ChronoType';
-  font-weight: 600;
-  background-color: black;
-  color: #dfdfdf;
+    text-align: center;
+}
+
+.wrap {
+	margin: auto;
 }
 
 a {
@@ -20,12 +29,10 @@ a {
 
 ul {
     list-style-type: none;
-    padding: 0;
-    overflow: hidden;
     display: flex;
     margin: 0;
-    justify-content: flex-start;
     padding-right: 16px;
+    justify-content: center;
   }
 
 li {
