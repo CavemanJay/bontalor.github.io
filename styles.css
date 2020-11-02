@@ -13,6 +13,8 @@ html {
     font-weight: 600;
     color: #dfdfdf;
     min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -20,7 +22,6 @@ body {
 }
 
 .wrap {
-	margin: auto;
 }
 a {
     color: #00ffd9;
@@ -36,4 +37,21 @@ ul {
 
 li {
   padding-right: 16px;
+}
+
+.sitemessage {
+  font-size: 20px;
+  display: inline-block;
+  white-space: nowrap;
+  animation: floatText 325s infinite linear;
+  padding-left: 100%; /*Initial offset*/
+}
+@keyframes floatText {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.twitchpfp {
+  margin-top: 8px;
 }
