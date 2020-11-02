@@ -1,5 +1,5 @@
 <?php
-$secret_key = "n112001/N"; //Set this as your secret key, to prevent others uploading to your server.
+$secret_key = "dfsgdhgghgewrgrhtrewtrhtrethrety454343545y545@#$#@$#sdff"; //Set this as your secret key, to prevent others uploading to your server.
 $sharexdir = "ifyouhaveadirectory/"; //This is your file dir, also the link..
 $domain_url = 'https://bonta.xyz/'; //Add an S at the end of HTTP if you have a SSL certificate.
 $lengthofstring = 5; //Length of the file name
