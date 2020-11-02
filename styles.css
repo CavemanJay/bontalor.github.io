@@ -36,15 +36,15 @@ ul {
   }
 
 li {
-  padding-right: 16px;
+    padding-right: 16px;
 }
 
 .sitemessage {
-  font-size: 20px;
-  display: inline-block;
-  white-space: nowrap;
-  animation: floatText 325s infinite linear;
-  padding-left: 100%; /*Initial offset*/
+    font-size: 20px;
+    display: inline-block;
+    white-space: nowrap;
+    animation: floatText 325s infinite linear;
+    padding-left: 100%; /*Initial offset*/
 }
 @keyframes floatText {
   to {
@@ -53,5 +53,13 @@ li {
 }
 
 .twitchpfp {
-  margin-top: 8px;
+    margin-top: 8px;
+}
+
+.zulul {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width:24px;
+    height:24px;
 }
