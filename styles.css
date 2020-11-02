@@ -6,15 +6,18 @@
     font-style: normal;
     font-display: swap;
 }
+
 body{
   font-family: 'ChronoType';
   font-weight: 600;
   background-color: black;
   color: #dfdfdf;
 }
+
 a{
     color: #00ffd9;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -24,6 +27,7 @@ ul {
     justify-content: flex-start;
     padding-right: 16px;
   }
+
 li {
   padding-right: 16px;
 }
