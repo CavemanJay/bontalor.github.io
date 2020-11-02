@@ -1,6 +1,6 @@
 <?php
 
-define('SITE_NAME', 'yoursite.com'); // site name displayed in the header and FAQ/ToS
+define('SITE_NAME', 'bonta.xyz'); // site name displayed in the header and FAQ/ToS
 
 define('SITE_URL', 'admin@email.com'); // the domain ONLY for your site (i.e. without the "upld" folder)
 define('SCRIPT_PATH', ''); // folder where the script is located (leave blank if it's in the root directory)
