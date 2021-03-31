@@ -83,7 +83,7 @@ li {
 /* animated links TriHard my code now */
 a {
 	text-decoration: none;
-	color: #5be8ea;
+	color: #5D5DF8;
 }
 a:hover {
 	animation: linkhover 3s infinite;
