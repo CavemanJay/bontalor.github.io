@@ -145,3 +145,13 @@ a:hover {
 .volumecontrollerbar:hover{
     background-color:#bcbcbc !important;
 }
+
+#click {
+  position: absolute;
+  left: 250px;
+top: 500px;
+width:200px;
+height:100px;
+z-index: 999;
+font-size: 30px;
+}
