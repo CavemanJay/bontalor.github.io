@@ -39,7 +39,7 @@ li {
     padding-right: 16px;
 }
 
-#sitemessage {
+.sitemessage {
     font-size: 20px;
     display: inline-block;
     white-space: nowrap;
@@ -173,7 +173,7 @@ button {
 button:hover span {display:none}
 button:hover:before {content:"fran"}
 
-.raremonkey {
+#raremonkey {
   width: 25px;
   height: 20px;
 }
