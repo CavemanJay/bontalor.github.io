@@ -155,3 +155,18 @@ height:100px;
 z-index: 999;
 font-size: 30px;
 }
+
+button {
+  width:2.1em;
+  padding: 0;
+  border: none;
+  font-family: 'ChronoType';
+  font-weight: 600;
+  color: #dfdfdf;
+  background: none;
+  font-size: 16px;
+
+
+}
+button:hover span {display:none}
+button:hover:before {content:"fran"}
