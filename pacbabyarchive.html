@@ -22,6 +22,16 @@ document.getElementById("startOrStopImg").onclick = function() {
 	else audio.pause();
 };
 </script>
+<input id="volslider" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
+<script>
+    function SetVolume(val)
+    {
+        var player = document.getElementById('pac');
+        console.log('Before: ' + player.volume);
+        player.volume = val / 100;
+        console.log('After: ' + player.volume);
+    }
+</script>
 </div>
 
 		<main class='wrap'>
